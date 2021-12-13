@@ -12,7 +12,7 @@
     03- Sticky Navbar
     04- Scroll Top Button
     05- Close Topbar
-    06- Set Background-img to section 
+    06- Set Background-img to section
     07- Add active class to accordions
     08- Contact Form validation
     09- Slick Carousel
@@ -20,7 +20,7 @@
     11- CounterUp
     12- NiceSelect Plugin
     13- portfolio Filtering and Sorting
-     
+
  ----------------------------*/
 
 $(function () {
@@ -279,4 +279,5 @@ $(function () {
     $(".portfolio-filter li a").on("click", function (e) {
         e.preventDefault();
     });
+    document.querySelector("#page-login > div > main > div.page_content > div > section.for-login > div.login-content.page-card > form > div.page-card-actions > button")
 });
